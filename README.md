@@ -41,7 +41,7 @@ Clone the repository and catkin_make:
     $ rosrun vins vins_node ./VINS-Fusion/config/euroc/euroc_stereo_imu_config.yaml
 
     # Terminal 2
-    $ python3 realtime_render.py
+    $ python3 realtime_render.py -m <TRAINED_MODEL_PATH> -s <DATASET_PATH>
  
 ```
 
